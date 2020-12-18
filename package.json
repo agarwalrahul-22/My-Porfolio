@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agarwalrahul-22/My-Porfolio.git"
+    "url": "git+https://github.com/agarwalrahul-22/My-Portfolio.git"
   },
   "author": "Rahul Agarwal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/agarwalrahul-22/My-Porfolio/issues"
+    "url": "https://github.com/agarwalrahul-22/My-Portfolio/issues"
   },
-  "homepage": "https://github.com/agarwalrahul-22/My-Porfolio#readme",
+  "homepage": "https://github.com/agarwalrahul-22/My-Portfolio#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   }
