@@ -1,81 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Rahul Agarwal</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/s.css">
-	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/s.css">
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 </head>
 <body>
 	<header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left">
-            <div id="logo-img"></div>
-          </a>
+          <a href="index.html" class="pull-left"><div id="logo-img"></div></a>
 
-          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button> -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#" id="tile" class="hidden-xs">About</a>
-            </li>
-            <li>
-              <a href="#" id="tile" class="hidden-xs">Experience</a>
-            </li>
-            <li>
-              <a href="#" id="tile" class="hidden-xs">Work</a>
-            </li>
-            <li>
-              <a href="#" id="tile" class="hidden-xs">Contact</a>
-            </li>
-            <li>
-              <a href="#" id="tile" class="hidden-xs"><p>Resume</p></a>
-            </li>
-          </ul><!-- #nav-list -->
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li><a href="#aboutme" id="tile" class="nav-items"><span class="fa fa-home fa-lg"></span>About</a></li>
+            <li><a href="#projects" id="tile" class="nav-items"><span class="fa fa-tasks fa-lg"></span>Projects</a></li>
+            <!-- <li><a href="#" id="tile" class="nav-items"><span class="fa fa-home fa-lg"></span>Work</a></li> -->
+            <li><a href="#" id="tile" class="nav-items"><span class="fa fa-phone fa-lg"></span>Contact</a></li>
+            <li><a href="#" id="tile" class="nav-items"><span class="fa fa-file fa-lg"></span>Resume</a></li>
+          </ul>
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
-  <div id="text">
-  <div>Hi, My Name is</div>
-  <div class="name">Rahul Agarwal</div>
-  <div>I am a 2nd year undergraduate at IIT Bhubaneswar, India</div>
-  <br>
-</div>
-  <div id="tile" class="GetInTouch"><p>Get In Touch</p></div>
-<br><br><br>
-<div id="Headings">
-  <div>1. About Me</div>
-  <hr><br>
-</div>
-<div id="image">
+  <div class="container">
+    <div class="row">
+      <div id="text" class="col-12">
+        <div>Hi, My Name is</div>
+        <div class="name">Rahul Agarwal</div>
+        <div>I am a 2nd year undergraduate at IIT Bhubaneswar, India</div>
+        <br>
+      </div>
+      <div id="tile" class="GetInTouch"><p>Get In Touch</p></div>
+   </div>
   </div>
-  <div id="text">
-    <p>I am a 2nd year undergraduate at IIT Bhubaneswar pursuing B.Tech. Dual Degree in Mechanical and Manufacturing Engineering.</p>
+  <br><br>
+
+
+  <div class="container">
+    <div class="col-12 Headings" id="aboutme">1. About Me</div>
+    <hr>
+    <div class="row row-content">
+    <div class="col-12 col-sm-6 text-center"><image src="Images/Rahul-md-xl.png" class="rounded img-thumbnail" id="image"></image></div>
+    <br class="visible-xs">
+    <div class="col-12 col-sm-5" id="text">I am a Second year undergraduate at IIT Bhubaneswar pursuing B.Tech. Dual Degree in Mechanical and Manufacturing Engineering.</div>
+    </div>
+    <br><br><br><br>
+    <div class="col-12 Headings" id="projects">2. Projects</div>
+    <hr>
   </div>
-  <br><br><br>
-  <div id="Headings">
-    <div>2. Experience</div>
-    <hr><br>
-  </div>
+ 
+
 
 <!-- For tabs -->
-   <ul class="tabs">
+   <!-- <ul class="tabs">
     <li data-tab-target="#IIT-Roorkee" class="active tab">IIT-Roorkee</li>
     <li data-tab-target="#Microsoft" class="tab">Microsoft</li>
     <li data-tab-target="#X" class="tab">X</li>
@@ -95,12 +88,26 @@
       <p>Let me tell you about me</p>
     </div>
   </div>
-  <br>
-  <br><br><br><br><br><br><br><br><br><br>
-  <div id="Headings">
-  <div id="#work">3. Work</div>
-  <hr><br>
-</div>
+</div> -->
+<footer class="footer">
+  <div class="container">
+      <div class="row justify-content-center">             
+          <div class="col-12 col-sm-12 align-self-center"">
+              <div class="text-center">
+                  <br>
+                  <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                  <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/rahul-agarwal-191747199/"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                  <a class="btn btn-social-icon btn-microsoft" href="https://www.behance.net/rahulagarwal15"><i class="fa fa-behance"></i></a>
+
+                  <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+              </div>
+          </div>
+     </div>
+  </div>
+</footer>
 
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

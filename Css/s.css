@@ -7,21 +7,37 @@ body{
 #header-nav {
   background-color: #000000;
   border-radius: 0;
-  border: 1px solid #03C7F9;
-  height: 80px;
-  /*border-color: #03C7F9;*/
+  border: 0px;
+  border-bottom: 1px solid #03C7F9;
 }
 
-#tile {
-	color: #ffffff;
-  font-size: 1.2em;
-  margin-top: 10px;
+.footer{
+  background-color: #000000;
+  border-radius: 0;
+  border: 0px;
+  border-top: 1px solid #03C7F9;
+  height: 80px;
+}
+
+.active{
+  border: 3px solid #03C7F9;
+  height: 60px;
+}
+#tile{
+  color: #03C7F9;
+  font-family: 'Spectral', serif;
+  font-size: 1.5em;
+  /* margin-left: 2px; */
+  margin-top: 14px;
 }
 #tile p{
+  font-size: 1.5em;
+  margin-top: 10px;
   color: #03C7F9;
-  border: 2px solid #03C7F9;
+  border: 1px solid #03C7F9;
   padding: 4px;
-  border-radius: 5px;
+  border-radius: 6px;
+  font-family: 'Spectral', serif;
 }
 
 #tile p:hover{
@@ -30,21 +46,17 @@ body{
 }
 
 #logo-img {
-  background: url('../Images/logo-large.png') no-repeat;
+  background: url('../Images/logo.png') no-repeat;
   width: 60px;
   height: 60px;
   margin: 10px 10px;
  }
 
  #text {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   color: #03C7F9;
   font-size: 1.5em;
- }
-
- #text p{
-  width: 500px;
-  height: 400px;
+  text-align: justify;
  }
 
  .name {
@@ -55,23 +67,19 @@ body{
 .GetInTouch{
   width: 200px;
   text-align: center;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
-#Headings{
-  margin-left: 50px;
-  margin-right: 50px;
+.Headings{
+  /* margin-left: 50px;
+  margin-right: 50px; */
   font-size: 3em;
   color: #03C7F9;
 }
 
 #image{
-  background: url('../Images/rahul.png') no-repeat;
-  height: 540px;
-  width: 600px;
-  float: right;
-  margin-right: 70px;
-  filter: blur(7px);
+  align-self: center;
+  filter: blur(2px);
 }
 #image:hover{
   filter: blur(0px);
@@ -91,6 +99,9 @@ body {
   margin: 0;
 }
 
+.btn {
+  margin-left: 25px;
+}
 .tabs {
   /*display: flex;*/
   /*justify-content: space-around;*/
@@ -107,7 +118,7 @@ body {
   /*border-bottom: 1px solid black;*/
 }
 
-.tab {
+/* .tab {
   cursor: pointer;
   padding: 10px;
 }
@@ -133,9 +144,4 @@ body {
   height: 120px;
   position: relative;
   border-left: none;
-}
-
-/*#work{
-  position: absolute;
-  float: none;
-}*/
+} */
