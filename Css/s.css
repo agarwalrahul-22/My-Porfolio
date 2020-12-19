@@ -79,7 +79,7 @@ body{
 
 #image{
   align-self: center;
-  filter: blur(2px);
+  filter: blur(3px);
 }
 #image:hover{
   filter: blur(0px);
